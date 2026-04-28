@@ -48,7 +48,24 @@ class EmergencyTypeScreen extends StatelessWidget {
 //     ),
 //   );
 // },
-onTap: () {
+// onTap: () {
+//   if (t["name"] == "Women Safety") {
+//     Navigator.push(
+//       context,
+//       MaterialPageRoute(
+//         builder: (_) => const WomenSafetyScreen(),
+//       ),
+//     );
+//   } else {
+//     Navigator.push(
+//       context,
+//       MaterialPageRoute(
+//         builder: (_) => FirstAidScreen(t["name"]),
+//       ),
+//     );
+//   }
+// },
+              onTap: () {
   if (t["name"] == "Women Safety") {
     Navigator.push(
       context,
@@ -64,7 +81,7 @@ onTap: () {
       ),
     );
   }
-},
+}
             ),
           );
         },
